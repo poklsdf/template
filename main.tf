@@ -32,3 +32,10 @@ provider "aws" {
   region  = var.aws_region
   profile = var.aws_profile # Please see the .tfvars file and the readme for more information about this.
 }
+
+# ----------------------------------------------------------------------------------------------------------------------
+# S3 Buckets
+# ----------------------------------------------------------------------------------------------------------------------
+module "s3_buckets" {
+  source = "./local_modules/s3_buckets"
+}
