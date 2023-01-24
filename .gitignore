@@ -1,0 +1,16 @@
+# Compiled files
+*.tfstate
+*.tfstate.backup
+
+# Module directory
+.terraform/
+/.project
+/aws-terraform.iml
+
+# Idea
+.idea
+.idea/
+
+# VSCode
+.vscode
+.vscode/
